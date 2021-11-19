@@ -25,6 +25,27 @@ body{
     content: "";
 }
 
+h1.section2header {
+    font-size: 55px;
+    text-align: center;
+    color:black;
+}
+
+#mission-statement{
+    background-color: black;
+    padding: 60px 0px 60px 0px;
+    margin: 20px opx 20px 0px;
+    width: 100%;
+}
+
+article p{
+    font-size: 26px;
+    padding: 20px;
+    margin: 0% 15% 0% 15%;
+    color: white;
+    text-align: center;
+    width: auto;
+}
 /********* Nav Bar **********/
 nav{
     display: block;
@@ -86,6 +107,31 @@ ul.topnav li a:hover{
 
 
 /******** Welcome Div **********/
+#welcome-section{
+    background-color:black;
+}
+
+h1.welcome-col,
+h2.subwelcome-col{
+    color: white;
+}
+
+h1.welcome-col{
+    font-size: 60px;
+    text-align: center;
+}
+
+h2.subwelcome-col{
+    font-size: 20px;
+    text-align: center;
+}
+
+input.welcome-button{
+width: 80px;
+height: 50px;
+text-align: center;
+margin-left: 42%
+}
 
 div.leftside-col{
     margin: 0% 5% 0% 15%;
@@ -98,4 +144,30 @@ div.rightside-col{
 .rightside-col img{
     width: 450px;
     height: 300px;
+}
+
+/******** Icons **********/
+
+div.box {
+    text-align: center;
+    margin: 24px;
+    padding: 36px 24px 40px 24px;
+    border-radius: 7px;
+    background-color: white;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.15),
+    0 2px 3px 0 rgba(0,0,0,.1);
+}
+
+div.icon{
+    width:100%;
+}
+
+img{
+    width:180px;
+    height:140px;
+}
+
+div.icon p{
+    margin: 5%;
+    padding: 1%;
 }
