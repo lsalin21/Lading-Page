@@ -127,10 +127,14 @@ h2.subwelcome-col{
 }
 
 input.welcome-button{
-width: 80px;
-height: 50px;
+width: 100px;
+height: 40px;
 text-align: center;
-margin-left: 42%
+margin-left: 42%;
+font-size: 16px;
+border-radius: 8px;
+background-color: white;
+color: black;
 }
 
 div.leftside-col{
@@ -170,4 +174,51 @@ img{
 div.icon p{
     margin: 5%;
     padding: 1%;
+}
+
+/*********** Sign Up Bar ************/
+
+#signUpBar{
+    width: 68%;
+}
+
+div.leftside-signUp{
+    margin-left: 23%;
+    padding-left: 20%;
+}
+
+div.leftside-signUp h3{
+    font-size: 19px;
+}
+
+div.leftside-signUp h4{
+    font-size: 13px;
+}
+
+div.rightside-signUp{
+    margin-left: 10%;
+}
+
+div.rightside-signUp input{
+    width: 120px;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    border-radius: 12px ;
+}
+
+
+/********* Footer *********/
+div.footer{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+ p.footer-text{
+    font-size: 22px;
+    color: white;
+    margin: auto;
+    padding:40px;
 }
